@@ -24,3 +24,8 @@
       #+BEGIN_SRC sh
       ln -s ~/.config/i3/terminator_config ~/.config/terminator/config
       #+END_SRC
+5. Compton for transparency
+   1. Softlink compton.conf
+      #+BEGIN_SRC sh
+      ln -s ~/.config/i3/compton.conf ~/.config/compton.conf
+      #+END_SRC
