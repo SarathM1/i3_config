@@ -22,5 +22,5 @@
 4. termite
    1. Softlink termite_conf
       #+BEGIN_SRC sh
-      ln -s ~/.config/i3/termite_config ./.config/termite/config
+      ln -s ~/.config/i3/terminator_config ~/.config/terminator/config
       #+END_SRC
