@@ -14,4 +14,8 @@
 * Dependencies
 1. i3-gaps
 2. i3blocks
+   1. softlink i3blocks.conf
+    #+BEGIN_SRC sh
+    ln -s ~/.config/i3/i3blocks.conf ~/.i3blocks.conf
+    #+END_SRC
 3. suckless-tools (For dmenu)

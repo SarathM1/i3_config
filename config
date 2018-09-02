@@ -177,8 +177,27 @@ bindsym $mod+r mode "resize"
 # Start i3bar to display a workspace bar (plus the system information i3status
 # finds out, if available)
 bar {
-        status_command i3status
+    # status_command i3status
+    font pango:mono 11
+	# colors {
+	# 		background $darkblack
+	# 		statusline $darkwhite
+	# 		separator $cyan
+	# 		focused_workspace  $blue $darkblue $darkblack
+    #     		active_workspace   $blue $blue $darkwhite
+    #   			inactive_workspace $darkblack $darkblack $white
+    #     		urgent_workspace   $darkblack $darkblack $white
+	# 	}
+	status_command i3blocks
+	mode dock
+    modifier None
 }
 
 # For loading wallpaper on startup
 exec --no-startup-id exec bash $HOME/.fehbg
+
+# Unclutter makes the mouse invisible after a brief period
+# exec --no-startup-id unclutter
+
+# Run the script to update the mpd i3block on change.
+exec --no-startup-id i3mpdupdate
