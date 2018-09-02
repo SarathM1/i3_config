@@ -23,12 +23,12 @@
     background_type = transparent
     scrollbar_position = hidden
     foreground_color = "#e2e2e2"
-    font = Monospace 13
+    font = SauceCode Pro Nerd Font Mono 13
     background_color = "#070505"
     scrollback_infinite = True
   [[root]]
     use_system_font = False
-    font = Monospace 8
+    font = SauceCode Pro Nerd Font Mono 13
     background_color = "#070505"
     foreground_color = "#cca938"
 [layouts]
