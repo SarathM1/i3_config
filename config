@@ -19,6 +19,8 @@ for_window [class="^.*"] border pixel 2
 
 gaps inner 15
 gaps outer 15
+# use gaps only if more than one window is open
+smart_gaps on
 
 set $mod Mod4
 
