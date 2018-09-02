@@ -179,15 +179,6 @@ bindsym $mod+r mode "resize"
 bar {
     # status_command i3status
     font pango:mono 11
-	# colors {
-	# 		background $darkblack
-	# 		statusline $darkwhite
-	# 		separator $cyan
-	# 		focused_workspace  $blue $darkblue $darkblack
-    #     		active_workspace   $blue $blue $darkwhite
-    #   			inactive_workspace $darkblack $darkblack $white
-    #     		urgent_workspace   $darkblack $darkblack $white
-	# 	}
 	status_command i3blocks
 	mode dock
     modifier None
