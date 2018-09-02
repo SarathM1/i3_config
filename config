@@ -88,7 +88,7 @@ bindsym $mod+f fullscreen toggle
 
 # change container layout (stacked, tabbed, toggle split)
 bindsym $mod+s layout stacking
-bindsym $mod+w layout tabbed
+bindsym $mod+t layout tabbed
 bindsym $mod+e layout toggle split
 
 # toggle tiling / floating
@@ -192,3 +192,8 @@ exec --no-startup-id exec bash $HOME/.fehbg
 
 # Run the script to update the mpd i3block on change.
 exec --no-startup-id i3mpdupdate
+
+# Key bindings
+
+bindsym $mod+w	exec --no-startup-id firefox
+bindsym $mod+Shift+w exec --no-startup-id firefox
