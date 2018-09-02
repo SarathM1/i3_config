@@ -11,7 +11,12 @@
 
 # #---Basic Definitions---# #
 # Needed for i3-gaps
-# for_window [class="^.*"] border pixel 2
+
+# To fix issue between i3-gaps and feh wallpaper
+# https://unix.stackexchange.com/questions/302105/feh-and-i3-gaps-not-playing-nicely
+for_window [class="^.*"] border pixel 2
+# hide_edge_borders both
+
 gaps inner 15
 gaps outer 15
 
@@ -174,3 +179,6 @@ bindsym $mod+r mode "resize"
 bar {
         status_command i3status
 }
+
+# For loading wallpaper on startup
+exec --no-startup-id exec bash $HOME/.fehbg
