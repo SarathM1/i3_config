@@ -199,3 +199,6 @@ exec --no-startup-id i3mpdupdate
 
 bindsym $mod+w	exec --no-startup-id firefox
 bindsym $mod+Shift+w exec --no-startup-id firefox
+
+# Compton for transparency
+exec --no-startup-id compton -b -c -f
