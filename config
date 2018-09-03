@@ -203,3 +203,8 @@ bindsym $mod+Shift+w exec --no-startup-id firefox
 # Compton for transparency
 exec --no-startup-id compton -b -c -f
 
+# For network manager
+exec --no-startup-id nm-applet
+
+# For i3 lock
+bindsym $MOD+SHIFT+x exec i3lock -d -c 000000
