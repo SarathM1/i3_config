@@ -9,6 +9,8 @@
 #
 # Please see https://i3wm.org/docs/userguide.html for a complete reference!
 
+set $term --no-startup-id gnome-terminal
+
 # #---Basic Definitions---# #
 # Needed for i3-gaps
 
@@ -199,6 +201,7 @@ exec --no-startup-id i3mpdupdate
 
 bindsym $mod+w	exec --no-startup-id firefox
 bindsym $mod+Shift+w exec --no-startup-id firefox
+bindsym $mod+Shift+m exec --no-startup-id $term -e /home/sm/.emacs.d/mu4e_run.sh
 
 # Compton for transparency
 exec --no-startup-id compton -b -c -f
