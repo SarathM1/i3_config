@@ -201,7 +201,12 @@ exec --no-startup-id i3mpdupdate
 
 bindsym $mod+w	exec --no-startup-id firefox
 bindsym $mod+Shift+w exec --no-startup-id firefox
-bindsym $mod+Shift+m exec --no-startup-id $term -e /home/sm/.emacs.d/mu4e_run.sh
+bindsym $mod+m exec --no-startup-id $term -e /home/sm/.emacs.d/mu4e_run.sh
+
+# Screenshots
+bindsym --release Print exec "scrot -m '/home/sm/Pictures/screenshots/%s_%H%M_%d.%m.%Y_$wx$h.png'"
+bindsym --release Shift+Print exec "scrot -s '/home/sm/Pictures/screenshots/%s_%H%M_%d%m%Y_$wx$h.png'"
+bindsym --release $mod+Shift+Print exec "scrot -u -d 4 '/home/sm/Pictures/screenshots/%s_%H%M_%d%m%Y_$wx$h.png'"
 
 # Compton for transparency
 exec --no-startup-id compton -b -c -f
