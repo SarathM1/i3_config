@@ -185,6 +185,16 @@ bar {
 	status_command i3blocks
 	mode dock
     modifier None
+
+    colors {
+            background #002b36
+            statusline #50C878
+            # separator  #1793D1
+            # border  background  text
+            focused_workspace  #E7B004 #E7B004 #002b36
+            inactive_workspace #586e75 #586e75 #eee8d5
+            urgent_workspace   #0F3048 #141D28 #F7F5E6
+    }
 }
 
 # For loading wallpaper on startup
