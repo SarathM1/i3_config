@@ -223,7 +223,7 @@ exec --no-startup-id compton -b -c -f
 exec --no-startup-id nm-applet
 
 # For i3 lock
-bindsym $MOD+SHIFT+x exec i3lock -d -c 000000
+bindsym $MOD+l exec i3lock -d -c 000000
 
 # For setting screen resolution manually
 # Refer: https://superuser.com/questions/1111788/i3-how-to-save-background-and-screen-resolution
