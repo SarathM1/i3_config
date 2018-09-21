@@ -57,12 +57,6 @@ bindsym $mod+d exec dmenu_run
 # installed.
 # bindsym $mod+d exec --no-startup-id i3-dmenu-desktop
 
-# change focus
-bindsym $mod+j focus left
-bindsym $mod+k focus down
-bindsym $mod+l focus up
-bindsym $mod+semicolon focus right
-
 # alternatively, you can use the cursor keys:
 bindsym $mod+Left focus left
 bindsym $mod+Down focus down
@@ -193,7 +187,7 @@ bindsym e exec emacs
 bindsym Return mode "default"
 bindsym Escape mode "default"
 }
-bindsym $mod+w mode "App launch"
+bindsym $mod+l mode "App launch"
 
 # Start i3bar to display a workspace bar (plus the system information i3status
 # finds out, if available)
